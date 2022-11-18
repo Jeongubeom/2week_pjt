@@ -1,0 +1,18 @@
+package pjt_2week;
+
+public class no1_q {
+
+	public static void main(String[] args) {
+		int var1=5; //변수 var1에 5입력
+		int var2=2; //변수 var2에 2입력
+		double var3=(double) var1/var2; //5/2를 var3에 저장
+		int var4=(int) (var3*var2); //
+		System.out.println(var4);
+
+	}
+
+}
+/*8번째 줄// int타입끼리 연산 후 double var3에 저장이 되는 것인데
+ *연산 한 직후 값이 int이므로 0.5인 소숫값 데이터 손실이 발생함.
+ * 데이터를 실수 타입인 double데이터타입으로 강제변환 시킨 후 연산하면 2.5값이 var3에 입력됨
+ */

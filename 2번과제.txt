@@ -1,0 +1,13 @@
+package pjt_2week;
+
+public class no2_q {
+
+	public static void main(String[] args) {
+		int x=10;
+		int y=20;
+		int z = (++x) + (y--);// ++x는 연산 전 증가 y-- 연산 후 감소
+		System.out.println(z);	
+
+	}
+
+}

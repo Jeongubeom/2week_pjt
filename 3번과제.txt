@@ -1,0 +1,19 @@
+package pjt_2week;
+
+public class no3_q {
+
+	public static void main(String[] args) {
+		System.out.println("시작!!!!");
+			while(true) {
+			int num1 =(int) (Math.random()*6)+1; //주사위 1
+ 			int num2 =(int) (Math.random()*6)+1; //주사위 2
+			int sum = num1 + num2; //난수값 저장
+			if(sum == 5) { //난수의 합이 5와 같다면!!!
+				System.out.println("("+num1+", "+num2+")");
+				break; // 정지
+			}
+		}System.out.println("끝");
+
+	}
+
+}
